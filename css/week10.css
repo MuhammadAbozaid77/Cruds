@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.pointer {
+    cursor: pointer;
+}
+.crud {
+    text-align: center;
+    font-size: 30px;
+    color: #0dcaf0;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="pic/Abuzaid-Logo-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week10.css">
+</head>
+<body>
+
+    <div class="container mt-3 p-2">
+        <div> <h1 class="crud"> Cruds Operation </h1> </div>
+        <div>
+            <h6 class="text-center mt-2 text-secondary">Search Your Team</h6>
+            <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center align-items-center form-control p-0 w-50">
+                    <input oninput="searchShirt(this.value)" type="search" id="buttonSearch" class="form-control border-0" placeholder="Search About Your Favourite Team">
+                    <i class="fa-solid fa-magnifying-glass my-1 mx-3"></i>
+                </div>
+            </div>
+        </div>
+        <label for="ShirtCompany"> Tshirt Company</label>
+        <input class="form-control mb-2" type="text" id="ShirtCompany">
+
+        <label for="ShirtTeam"> Tshirt Team</label>
+        <input class="form-control mb-2" type="text" id="ShirtTeam">
+
+        <label for="ShirtSize"> Tshirt Size</label>
+        <input class="form-control mb-2" type="text" id="ShirtSize">
+
+        <label for="ShirtSalary">  Tshirt Salary</label>
+        <input class="form-control mb-2" type="text" id="ShirtSalary">
+
+        <button onclick="addShirt();" class="btn btn-info" id="add_Tshirt">  Add T-Shirt </button>
+        <button onclick="clearShirt();"  class="btn btn-secondary" id="button_Clear_Tshirt">  Clear T-Shirt </button>
+
+    </div> 
+
+    <div class="container mt-3 p-2"> 
+        <table class="table text-center"> 
+            <thead>
+                <th> T-Shirt Company </th>
+                <th> T-Shirt Team </th>
+                <th> T-Shirt Size </th>
+                <th> T-Shirt Salary </th>
+                <th> <i class="fa-solid fa-trash mx-1 text-danger"></i>  Deleted </th>
+                <th> <i class="fa-solid fa-pen-to-square mx-1 text-primary"></i> Updated </th>
+            </thead>
+            <tbody id="ShirtRow">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js" ></script>
+</body>
+</html>

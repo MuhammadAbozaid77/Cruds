@@ -1,0 +1,16 @@
+Hi everyone.
+	That is my mini javascript project. (Mini Dashboard for sports Companies)
+	Using Crud Operations.
+	HTML - CSS - BootStrap 5 - Javascript
+	Using In Javascript.
+	1-  DOM = document.getElementById("") ;
+	2- Local Storage => SetItem() , getItem();
+	3- JSON => Parse() , Stringify() ;
+	4- Array Methods => Push() , Splice() 
+	5- String Methods => toLowerCase() , Includes();
+	6- Project Have 
+		1- Create a Product
+		2- Delete a Product
+		3- Update a Product
+		4- Display Product
+		5- Search Product => Real-Time Search.
